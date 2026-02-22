@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  velora-node:
+    build: .
+    container_name: velora-node
+    ports:
+      - "30303:30303"
+      - "8545:8545"
+    environment:
+      - VALIDATOR_ADDRESS=0xSEU_ENDERECO
+    volumes:
+      - ./data:/velora/data
