@@ -13,3 +13,4 @@ Consenso: Clique (PoA)
 1. Instale Geth
 2. Clone o repositório
 3. Execute:
+A rede distribui 100% das taxas ao validador.
